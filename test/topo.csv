@@ -1,0 +1,33 @@
+TopoGraph------------------------------------------------
+4 : [3, 5]
+3 : [1, 2, 4, 5]
+2 : [1, 3]
+1 : [2, 3, 5]
+5 : [1, 3, 4]
+SpanningTree---------------------------------------------
+4 : [3, 5]
+3 : [1, 2, 4]
+2 : [3]
+1 : [3]
+5 : [4]
+inActivePorts----------------------------------------------
+4 : []
+3 : [6]
+2 : [3]
+1 : [2, 4]
+5 : [4, 5]
+Links-----------------------------------------------------
+Link: Port<dpid=3, port_no=5, LIVE> to Port<dpid=4, port_no=4, LIVE>
+Link: Port<dpid=3, port_no=5, LIVE> to Port<dpid=4, port_no=4, LIVE>
+Link: Port<dpid=5, port_no=3, LIVE> to Port<dpid=4, port_no=5, LIVE>
+Link: Port<dpid=5, port_no=3, LIVE> to Port<dpid=4, port_no=5, LIVE>
+Link: Port<dpid=5, port_no=5, LIVE> to Port<dpid=1, port_no=4, LIVE>
+Link: Port<dpid=5, port_no=5, LIVE> to Port<dpid=1, port_no=4, LIVE>
+Link: Port<dpid=5, port_no=4, LIVE> to Port<dpid=3, port_no=6, LIVE>
+Link: Port<dpid=5, port_no=4, LIVE> to Port<dpid=3, port_no=6, LIVE>
+Link: Port<dpid=3, port_no=3, LIVE> to Port<dpid=2, port_no=4, LIVE>
+Link: Port<dpid=3, port_no=3, LIVE> to Port<dpid=2, port_no=4, LIVE>
+Link: Port<dpid=3, port_no=4, LIVE> to Port<dpid=1, port_no=3, LIVE>
+Link: Port<dpid=3, port_no=4, LIVE> to Port<dpid=1, port_no=3, LIVE>
+Link: Port<dpid=1, port_no=2, LIVE> to Port<dpid=2, port_no=3, LIVE>
+Link: Port<dpid=1, port_no=2, LIVE> to Port<dpid=2, port_no=3, LIVE>
